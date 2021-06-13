@@ -2,7 +2,7 @@ package io.github.basicobject.leetcode
 
 import scala.annotation.tailrec
 
-object Problem18 extends App {
+object Problem18 {
   private def twoSum(nums: Vector[Int], target: Int): Seq[Seq[Int]] = {
     def twoPointerSum(s: Int, e: Int): Seq[Seq[Int]] = {
       val result = scala.collection.mutable.ListBuffer.empty[Seq[Int]]
