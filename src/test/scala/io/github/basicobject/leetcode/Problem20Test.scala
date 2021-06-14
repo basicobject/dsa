@@ -1,7 +1,6 @@
 package io.github.basicobject.leetcode
 
 import org.scalatest.AsyncWordSpec
-import org.scalatest.Matchers.convertToAnyShouldWrapper
 
 class Problem20Test extends AsyncWordSpec {
   import Problem20._
